@@ -1,0 +1,10 @@
+<view class="content">
+  <view id="listitem{{index}}" class="listitem" wx:for="{{ list }}" wx:for-item="pitem" wx:key="index" style="height:{{pitem.height ? pitem.height+'px':'auto'}}">
+    <view wx:if='{{pitem.length > 0}}' class="item" wx:for="{{ pitem }}" wx:key="id">
+      <view class="img" style="background:url( {{ item.imgUrl }} );"></view>
+      <view class="title">{{item.desc}}</view>
+      <view class="price">￥{{item.leadingprice}}</view>
+      <view class="price2">￥{{item.nowPrice}}</view>
+    </view>
+  </view>
+</view>

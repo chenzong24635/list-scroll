@@ -1,0 +1,7 @@
+<view bindtap="routeTo" style="height: 100rpx;">点我查看运用</view>
+
+<view class="list-box">
+  <view id="page{{pindex}}" class="list-page" style="height:{{pitem.height ? pitem.height+'px':'auto'}}" wx:for="{{list}}" wx:for-item="pitem" wx:for-index="pindex" wx:key="{{pindex}}">
+    <view wx:if='{{pitem.length > 0}}' class="list-item" wx:for="{{pitem}}" wx:key="{{index}}">{{item}}</view>
+  </view>
+</view>

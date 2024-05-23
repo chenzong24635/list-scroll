@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "demo0/index",
+    "demo0/demo/index",
+    "demo1/index"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "demo0/index",
+      "text": "demo0"
+    },{
+      "pagePath": "demo1/index",
+      "text": "demo1"
+    }]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
